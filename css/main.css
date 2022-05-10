@@ -30,4 +30,110 @@ body {
 }
 
 
+/* SITE HEADER STYLES */
+/* .site-header {
+
+} */
+
+/* SITE HEADER TOP STYLES */
+.site-header-top {
+    padding: 30px 0;
+    background-color: #f6f6f6;
+}
+.site-header-top-container {
+    display: flex;
+    align-items: center;
+}
+.site-header-top-logo {
+    display: flex;
+    padding: 9px 6px 8px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-right: 35px;
+}
+.site-header-top-logo:hover {
+    opacity: 0.8;
+}
+.site-header-top-logo:active {
+    opacity: 0.6;
+    filter: blur(1px);
+}
+.site-header-top-logo-img {
+    width: 264px;
+    height: 28px;
+    object-fit: contain;
+}
+.currensy-rates-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.currensy-rates-item:not(:last-child) {
+    margin-right: 25px;
+}
+.currensy-rates-item-bold {
+    line-height: 19px;
+    color: #2959ce;
+    margin-right: 2px;
+}
+.currensy-rates-item-text {
+    line-height: 19px;
+    color: #555;
+}
+.site-header-top-search {
+    margin-right: 25px;
+}
+.site-header-top-search input {
+    width: 275px;
+    padding: 14px 10px 14px 41px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    background-image: url("../images/home-imges/Mask.svg");
+    background-repeat: no-repeat;
+    background-position: 18px 15px;
+    background-size: 15px 15px;
+}
+.lang-toggler {
+    padding: 3px;
+    border-radius: 39px;
+    background-color: #dce6ff;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.lang-toggler-link {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    color: #a6a6a6;
+}
+.lang-toggler-active {
+    background-color: #fff;
+    color: #000;
+}
+.site-header-top-btn {
+    font-weight: 500;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    background-color: #7296ec;
+    display: inline-block;
+}
+.site-header-top-btn:hover {
+    opacity: 0.8;
+}
+.site-header-top-btn:active {
+    opacity: 0.6;
+}
+
+
 
