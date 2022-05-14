@@ -18,3 +18,10 @@ document.addEventListener("keydown", function(e) {
     }
 })
 
+document.addEventListener("click", function(e) {
+    console.log(e.target);
+    if(e.target.classList == "modal-bg") {
+        modalBg.classList.add("hidden")
+    }
+})
+
